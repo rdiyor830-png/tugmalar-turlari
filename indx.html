@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Buttons - CSS Dars 4</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="main-title">TUGMALAR TURLARI</h1>
+
+        <!-- Section 1: Basic Buttons -->
+        <section class="section">
+            <h2 class="section-title">1. Asosiy Tugmalar</h2>
+
+            <button class="btn btn-primary">Primary Button</button>
+            <button class="btn btn-secondary">Secondary Button</button>
+            <button class="btn btn-success">Success Button</button>
+            <button class="btn btn-danger">Danger Button</button>
+            <button class="btn btn-warning">Warning Button</button>
+            <button class="btn btn-info">Info Button</button>
+        </section>
+
+        <!-- Section 2: Hover Effects -->
+        <section class="section">
+            <h2 class="section-title">2. Hover Effektlari</h2>
+
+            <button class="btn-hover btn-hover-grow">Grow Effect</button>
+            <button class="btn-hover btn-hover-slide">Slide Effect</button>
+            <button class="btn-hover btn-hover-rotate">Rotate Effect</button>
+            <button class="btn-hover btn-hover-glow">Glow Effect</button>
+            <button class="btn-hover btn-hover-3d">3D Effect</button>
+        </section>
+
+        <!-- Section 3: Focus Inputs -->
+        <section class="section">
+            <h2 class="section-title">3. Focus Inputlar</h2>
+
+            <div class="input-group">
+                <label>Oddiy Input:</label>
+                <input type="text" class="input-basic" placeholder="Yozishni boshlang...">
+            </div>
+
+            <div class="input-group">
+                <label>Animatsiyali Input:</label>
+                <input type="text" class="input-animated" placeholder="Fokus qiling...">
+            </div>
+
+            <div class="input-group">
+                <label>Email Input:</label>
+                <input type="email" class="input-email" placeholder="email@example.com">
+            </div>
+
+            <div class="input-group">
+                <label>Password Input:</label>
+                <input type="password" class="input-password" placeholder="Parolingiz">
+            </div>
+        </section>
+
+        <!-- Section 4: Links -->
+        <section class="section">
+            <h2 class="section-title">4. Interaktiv Linklar</h2>
+
+            <div class="links-container">
+                <a href="#" class="link-underline">Underline Effect</a>
+                <a href="#" class="link-slide">Slide Effect</a>
+                <a href="#" class="link-bracket">Bracket Effect</a>
+                <a href="#" class="link-arrow">Arrow Effect</a>
+                <a href="#" class="link-border">Border Effect</a>
+            </div>
+        </section>
+
+        <!-- Section 5: Cards -->
+        <section class="section">
+            <h2 class="section-title">5. Interaktiv Kartochkalar</h2>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Fast</h3>
+                    <p>Tez va samarali ishlaydi</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🎨</div>
+                    <h3>Beautiful</h3>
+                    <p>Chiroyli dizayn va animatsiyalar</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🔒</div>
+                    <h3>Secure</h3>
+                    <p>Xavfsiz va ishonchli</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Form -->
+        <section class="section">
+            <h2 class="section-title">6. Interactive Form</h2>
+
+            <form class="demo-form">
+                <div class="form-group">
+                    <label for="name">Ism:</label>
+                    <input type="text" id="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Xabar:</label>
+                    <textarea id="message" rows="4" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" id="agree">
+                    <label for="agree">Shartlarga roziman</label>
+                </div>
+
+                <button type="submit" class="btn-submit">Yuborish</button>
+                <button type="reset" class="btn-reset">Tozalash</button>
+            </form>
+        </section>
+
+        <!-- Section 7: Disabled State -->
+        <section class="section">
+            <h2 class="section-title">7. Disabled Holati</h2>
+
+            <button class="btn btn-primary">Faol tugma</button>
+            <button class="btn btn-primary" disabled>O'chirilgan tugma</button>
+
+            <input type="text" class="input-basic" placeholder="Faol input">
+            <input type="text" class="input-basic" placeholder="O'chirilgan input" disabled>
+        </section>
+
+    </div>
+
+</body>
+</html>
